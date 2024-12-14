@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box; 
+ }
+ head,h3{
+     text-align: center;
+ }
+ body{
+         font-family: "Cute Font", sans-serif;
+         font-size: 25px;      
+         margin: 0;
+ }
+ a{
+     text-decoration: none;
+     color:black;
+ 
+ }
+ .navbar :hover{
+     color: red;
+ }
+ .navbar{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: rgba(248, 248, 84, 0.774);
+     padding: 4px 4px;
+ }
+ #nav_con{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ section{
+     box-sizing: border-box;
+     border: 1px solid black;
+     text-align: center;
+     display: block 100 100;
+ }
+ 
+ #a{
+     width: 50%;
+ }
+ footer{
+     position: relative;
+     transform: translateY(600px);
+     box-sizing: border-box;
+     border: 1px solid green;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
